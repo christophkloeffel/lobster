@@ -40,12 +40,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install python version
-        if: matrix.os != 'macos-14' || matrix.py-version == '3.11' || matrix.py-version == '3.12'
+        if: matrix.os != 'macos-14' || matrix.py-version == '3.8' || matrix.py-version == '3.11' || matrix.py-version == '3.12'
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.py-version }}
-      - name: Install python (3.8, 3.9, 3.10) on macOS-arm64
-        if: matrix.os == 'macos-14' && (matrix.py-version == '3.8' || matrix.py-version == '3.9' || matrix.py-version == '3.10')
+      - name: Install python (3.9, 3.10) on macOS-arm64
+        if: matrix.os == 'macos-14' && (matrix.py-version == '3.9' || matrix.py-version == '3.10')
         run: |
           brew install python@${{ matrix.py-version }}
           echo "${{ matrix.brew }}/opt/python@${{ matrix.py-version }}/libexec/bin" >> $GITHUB_PATH
