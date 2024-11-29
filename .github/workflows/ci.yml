@@ -65,3 +65,9 @@ jobs:
         if: always()
         run: |
           util/check_local_modifications.sh
+      - name: Setup tmate session
+        if: matrix.os == 'macos-14' && matrix.py-version == '3.8'
+        timeout-minutes: 40
+        uses: mxschmitt/action-tmate@v3
+        with:
+          limit-access-to-actor: true
