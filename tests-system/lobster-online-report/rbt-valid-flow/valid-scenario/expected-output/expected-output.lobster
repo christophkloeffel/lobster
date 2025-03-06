@@ -11,8 +11,8 @@
           "tag": "python basic.trlc_reference",
           "location": {
             "kind": "github",
-            "gh_root": "https://github.com/bmw-software-engineering/lobster",
-            "commit": "b9f6d99a007bca61680d5d1ea8b292bb102ab7b1",
+            "gh_root": "https://github.com/christophkloeffel/lobster",
+            "commit": "c92e82a072a4b002411aa4b733d79a6f0ac2f78c",
             "file": "tests-system/lobster-online-report/rbt-valid-flow/valid-scenario/input/basic.py",
             "line": 5
           },
@@ -31,8 +31,8 @@
           "tag": "python basic.Example.helper_function",
           "location": {
             "kind": "github",
-            "gh_root": "https://github.com/bmw-software-engineering/lobster",
-            "commit": "b9f6d99a007bca61680d5d1ea8b292bb102ab7b1",
+            "gh_root": "https://github.com/christophkloeffel/lobster",
+            "commit": "c92e82a072a4b002411aa4b733d79a6f0ac2f78c",
             "file": "tests-system/lobster-online-report/rbt-valid-flow/valid-scenario/input/basic.py",
             "line": 13
           },
@@ -49,8 +49,8 @@
           "tag": "python basic.Example.nor",
           "location": {
             "kind": "github",
-            "gh_root": "https://github.com/bmw-software-engineering/lobster",
-            "commit": "b9f6d99a007bca61680d5d1ea8b292bb102ab7b1",
+            "gh_root": "https://github.com/christophkloeffel/lobster",
+            "commit": "c92e82a072a4b002411aa4b733d79a6f0ac2f78c",
             "file": "tests-system/lobster-online-report/rbt-valid-flow/valid-scenario/input/basic.py",
             "line": 17
           },
